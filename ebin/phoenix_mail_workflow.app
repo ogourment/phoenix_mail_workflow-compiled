@@ -16,4 +16,4 @@
               {applications,[kernel,stdlib,elixir,logger,crypto,mdex]},
               {description,"phoenix_mail_workflow"},
               {registered,[]},
-              {vsn,"0.0.11"}]}.
+              {vsn,"0.0.12"}]}.
