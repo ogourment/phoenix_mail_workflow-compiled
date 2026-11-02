@@ -14,6 +14,7 @@
                         'Elixir.PhoenixMailWorkflow.Invitations',
                         'Elixir.PhoenixMailWorkflow.Layout',
                         'Elixir.PhoenixMailWorkflow.Logo',
+                        'Elixir.PhoenixMailWorkflow.MailboxAccess',
                         'Elixir.PhoenixMailWorkflow.Management',
                         'Elixir.PhoenixMailWorkflow.Markdown',
                         'Elixir.PhoenixMailWorkflow.Newsletter',
@@ -28,4 +29,4 @@
               {applications,[kernel,stdlib,elixir,logger,crypto,mdex]},
               {description,"phoenix_mail_workflow"},
               {registered,[]},
-              {vsn,"0.0.17"}]}.
+              {vsn,"0.0.18"}]}.
