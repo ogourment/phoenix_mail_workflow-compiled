@@ -42,7 +42,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixMailWorkflow do
     "ebin/Elixir.PhoenixMailWorkflow.Management.beam" =>
       "E70D37C0940A61126D6E35461923E9E9876BCE1D00D2F3BAECFDFF716C67022B",
     "ebin/Elixir.PhoenixMailWorkflow.Markdown.beam" =>
-      "DFD9F9FCBC53853F97169504C8CA85BCD2AC7ACF341DDAB190AB1FDFC67D72A4",
+      "AC3243B0B75ABCB94500AEC070FEDD1C6A99F88F43F4B69F24F26679F6107402",
     "ebin/Elixir.PhoenixMailWorkflow.Newsletter.beam" =>
       "B752069035BC793EE44CC685C4D9C5BB6F3735F79D7BED3F2115F95CE4129CF0",
     "ebin/Elixir.PhoenixMailWorkflow.Outreach.beam" =>
@@ -62,7 +62,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixMailWorkflow do
     "ebin/Elixir.PhoenixMailWorkflow.Variables.beam" =>
       "27C991D9F585E98531E441B943F3B618E812A682C1E8B8BDE2BA2D0597967BDD",
     "ebin/phoenix_mail_workflow.app" =>
-      "F95A4818E41F84DAC37564D8C87A244D9D08085C191CBAAFC69C8CF5606E45EA"
+      "A6396899E65CCCA8874ED82E43B15BC9DBDF932768CA73CBA10782C726AA1082"
   }
 
   @impl true
@@ -97,7 +97,7 @@ defmodule Compiled.PhoenixMailWorkflow.MixProject do
   def project do
     [
       app: :phoenix_mail_workflow,
-      version: "0.0.19",
+      version: "0.0.20",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_mail_workflow],
       deps: [mdex: "~> 0.13.5 or ~> 0.14.2"]
