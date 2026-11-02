@@ -5,6 +5,8 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixMailWorkflow do
   @checksums %{
     "LICENSE" => "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
     "NOTICE" => "DD3E120CB52F0C763CF99E06D2102423EAF2430CA1595D59E154A560DB7AC268",
+    "assets/js/variables.js" =>
+      "F3CC6A5A0635E29D3EEF81B99B2444B0E373BA64ADF3E1D1DEA20F08B177192A",
     "ebin/Elixir.Inspect.PhoenixMailWorkflow.Inbound.Message.beam" =>
       "AEC4CC37DF71C4DCB975BCD749CCC09FC1D76B7C4941371B692420DC9A5FBDA6",
     "ebin/Elixir.Inspect.PhoenixMailWorkflow.Inbound.Secrets.beam" =>
@@ -56,9 +58,11 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixMailWorkflow do
     "ebin/Elixir.PhoenixMailWorkflow.Swoosh.beam" =>
       "E4F89A65A93B18256A60AADBA084B333EED4914EA3CD1CF301DD2ED5E3016AA5",
     "ebin/Elixir.PhoenixMailWorkflow.Template.beam" =>
-      "0356852F01D6302443903FAF5B59B452D44CC255D0D2918078AC941CE58DF680",
+      "174E9DCA8AD96E2EFBE242796D3C051ED26D945783636AA7D1227BBE4E44F3E5",
+    "ebin/Elixir.PhoenixMailWorkflow.Variables.beam" =>
+      "27C991D9F585E98531E441B943F3B618E812A682C1E8B8BDE2BA2D0597967BDD",
     "ebin/phoenix_mail_workflow.app" =>
-      "4F417D21EAAA0E95746E9A92226665E5B4B6B1DEC9352C88AE3CCB2816A6F3A0"
+      "F95A4818E41F84DAC37564D8C87A244D9D08085C191CBAAFC69C8CF5606E45EA"
   }
 
   @impl true
@@ -93,7 +97,7 @@ defmodule Compiled.PhoenixMailWorkflow.MixProject do
   def project do
     [
       app: :phoenix_mail_workflow,
-      version: "0.0.18",
+      version: "0.0.19",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_mail_workflow],
       deps: [mdex: "~> 0.13.5 or ~> 0.14.2"]

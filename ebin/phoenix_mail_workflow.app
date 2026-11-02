@@ -24,9 +24,10 @@
                         'Elixir.PhoenixMailWorkflow.ProviderEvents',
                         'Elixir.PhoenixMailWorkflow.Results',
                         'Elixir.PhoenixMailWorkflow.Swoosh',
-                        'Elixir.PhoenixMailWorkflow.Template']},
+                        'Elixir.PhoenixMailWorkflow.Template',
+                        'Elixir.PhoenixMailWorkflow.Variables']},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger,crypto,mdex]},
               {description,"phoenix_mail_workflow"},
               {registered,[]},
-              {vsn,"0.0.18"}]}.
+              {vsn,"0.0.19"}]}.
