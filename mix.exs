@@ -51,7 +51,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixMailWorkflow do
     "ebin/Elixir.PhoenixMailWorkflow.Footer.beam" =>
       "B2EB413629B4B0771AE2E68F4CD247FBDC427C3AAF981EDEC325AE98B129C1EA",
     "ebin/Elixir.PhoenixMailWorkflow.HistoricalEmail.beam" =>
-      "14C00FE56908FCE2A30C6D66087EF966CD7E8528D4ADDAECDEAB67EF65BA1E7F",
+      "276F34D3C50DAB7EB56A184C80B4C425A0D79FAEA65C4E02A5806D5B67835480",
     "assets/js/variables.js" =>
       "F3CC6A5A0635E29D3EEF81B99B2444B0E373BA64ADF3E1D1DEA20F08B177192A",
     "LICENSE" => "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
@@ -70,7 +70,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixMailWorkflow do
     "ebin/Elixir.PhoenixMailWorkflow.Inbound.Brevo.beam" =>
       "51039319C4D9CCAB3965E03A8C367C87D8081F8B0D79B1F37ECD89AC276D8800",
     "ebin/phoenix_mail_workflow.app" =>
-      "B2C57A5DB03A2914AFD72F8032B37A2ADB61898C4A0A5AA58099B0CEFA58C165",
+      "93769A85B043BB27439A3B684CDD600660E232E8EC970C4B6201F8E32B2B6302",
     "ebin/Elixir.PhoenixMailWorkflow.Edition.beam" =>
       "117A96E3644D8AA31335B8B7D2B818FEC2865078EA5A73B2DF491B3041D9B1BB"
   }
@@ -107,7 +107,7 @@ defmodule Compiled.PhoenixMailWorkflow.MixProject do
   def project do
     [
       app: :phoenix_mail_workflow,
-      version: "0.0.22",
+      version: "0.0.23",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_mail_workflow],
       deps: [mdex: "~> 0.13.5 or ~> 0.14.2", mail: "~> 0.5.2"]

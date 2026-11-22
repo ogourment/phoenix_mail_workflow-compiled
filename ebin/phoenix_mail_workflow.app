@@ -35,4 +35,4 @@
               {applications,[kernel,stdlib,elixir,logger,crypto,mdex,mail]},
               {description,"phoenix_mail_workflow"},
               {registered,[]},
-              {vsn,"0.0.22"}]}.
+              {vsn,"0.0.23"}]}.
